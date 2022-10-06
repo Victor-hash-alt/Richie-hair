@@ -224,12 +224,17 @@ h1{
 @media  (max-width: 576px) {
   .carousel-caption{
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
-
     width: 300px;
     
+}
+.ifuma{
+  width: 200px;
+}
+.kakaa{
+  
 }
 }
 
