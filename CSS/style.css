@@ -233,9 +233,13 @@ h1{
 .ifuma{
   width: 200px;
 }
-.kakaa{
-  
+/* .kakaa h5{
+  font-size: 20px;
+} */
+}
+@media  (width: 300px) {
+.kakaa h5{
+  font-size: 15px;
 }
 }
-
   
