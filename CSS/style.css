@@ -38,6 +38,17 @@
     
 }
 
+.kakaa h5{
+  font-size:100px;
+}
+
+.kakaaSubhead h5{
+  font-size: 70px;
+}
+
+.kakaaSub-head h5{
+  font-size:80px;
+}
 
 .vic{
     padding: 1rem;
@@ -92,6 +103,11 @@ h1{
 .team{
     margin-top: 5rem;
 }
+
+ .con{
+  margin-top : 6rem;
+ }
+
 .footer {
     font-size: 14px;
   }
@@ -221,25 +237,26 @@ h1{
     color: var(--color-secondary);
   }
 
-@media  (max-width: 576px) {
-  .carousel-caption{
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    width: 300px;
-    
+@media screen and (max-width:375px) {
+  .kakaa h5{
+    font-size: 65px;
+  }
+
+  .kakaa-p{
+    width: 50%;
+  }
+
+  .kakaaSubhead h5{
+    font-size: 50px;
+    width: 45%;
+  }
+
+  .kakaaSub-head h5{
+    font-size:50px;
+    width: 45%;
+  }
+
+  .ifuma{
+    width: 280px;
+  }
 }
-.ifuma{
-  width: 200px;
-}
-/* .kakaa h5{
-  font-size: 20px;
-} */
-}
-@media  (width: 300px) {
-.kakaa h5{
-  font-size: 15px;
-}
-}
-  
